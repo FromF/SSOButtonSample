@@ -1,0 +1,13 @@
+name: HelloWorld
+
+on:
+  workflow_dispatch:
+
+jobs:
+  build:
+
+    runs-on: macos-latest
+
+    steps:
+      - name: Stub message
+        run: echo "Hello World."
